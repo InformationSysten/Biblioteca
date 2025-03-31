@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+/* Container principal para os cards */
+.cards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilização dos cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 35px 0;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  min-height: 250px; /* Altura mínima flexível */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinhamento no topo */
+  color: #333333;
+  box-shadow: 0 5px 15px rgba(93, 93, 93, 0.1);
+  text-align: center;
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+
+/* Ícones */
+.card i {
+  font-size: 2.5rem;
+  color: #ff451a;
+  margin-bottom: 20px;
+}
+
+/* Títulos */
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #56078b;
+  font-weight: 600;
+  width: 100%; /* Removendo largura fixa */
+}
+
+/* Parágrafos */
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666666;
+  text-align: center;
+  width: 100%; /* Removendo largura fixa */
+  margin-bottom: 15px;
+}
+
+/* slider */
+.cards-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cards-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+
+.cards-slider .card {
+  flex: 0 0 300px;
+  margin: 0 15px;
+  scroll-snap-align: start;
+  transition: all 0.3s;
+}
+
+/* Efeito de clonagem suave */
+.cards-slider.clone {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.slider-controls button {
+  background: #56078b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.slider-controls button:hover {
+  background: #ff451a;
+}

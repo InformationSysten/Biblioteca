@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container1 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #56078b;
+  margin: 60px 0 20px 0;
+}
+
+.texto1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.botao1 {
+  cursor: pointer;
+  background-color: #ed964d;
+  color: #fff;
+  border-radius: 25px;
+  width: 250px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  margin: 50px 0 80px 0;
+}
+
+.container2 {
+  background-color: #56078b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    
+}
+
+.gif {
+  width: 300px;
+  margin: 10px 300px 10px 0;
+}
+
+.ctexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto2 {
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+  margin: 50px 0 20px 0;
+  color: #fff;
+  line-height: 50px;
+}
+
+.botao2 {
+  cursor: pointer;
+  background-color: #ed964d;
+  color: #fff;
+  border-radius: 25px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  margin: 10px 0 50px 0;
+}
+
+.direitos {
+  color: #56078b;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px;
+}

@@ -9,20 +9,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgb(75, 21, 95);
+    background: radial-gradient(circle, rgba(75, 21, 95, 1) 21%, rgba(78, 22, 93, 1) 59%, rgba(98, 27, 76, 1) 82%, rgba(102, 28, 73, 1) 90%, rgba(108, 30, 68, 1) 95%, rgba(122, 34, 55, 1) 100%);
+    margin-bottom: 80px;
 }
 
 .logoIS {
     align-self: flex-end;
     width: 300px;
-    margin: 100px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    margin-right: 100px;
 }
 
 .titulo {
     font-size: 50px;
+    color: white;
 }
 
 .subtitulo {
     font-size: 35px;
+    color: white;
 }
 
 .genesyslogo {
@@ -89,3 +96,96 @@ a {
     width: 80%;
     font-size: 30px;
 }
+
+.plataforma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tPlataforma {
+    font-size: 40px;
+    margin: 80px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #E8E8E8; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    text-align: center;
+    height: 350px;
+    width: 300px; 
+    margin: 30px; 
+  }
+  
+ .card img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-bottom: 15px; 
+  }
+  
+  .card b {
+    display: block; 
+    font-size: 20px; 
+    font-weight: bold;  
+    color: #343a40; 
+    margin-bottom: 15px; 
+  }
+  
+  .card p {
+    font-size: 15px; 
+    color: #6c757d; 
+    line-height: 1.5; 
+  }
+
+.genesys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    margin: 80px;
+}
+
+.texto {
+    width: 80%;
+    font-size: 30px;
+}
+
+.potencializa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conclusao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encerramento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(75, 21, 95);
+    background: radial-gradient(circle, rgba(75, 21, 95, 1) 21%, rgba(78, 22, 93, 1) 59%, rgba(98, 27, 76, 1) 82%, rgba(102, 28, 73, 1) 90%, rgba(108, 30, 68, 1) 95%, rgba(122, 34, 55, 1) 100%);
+    margin-top: 80px;
+}
+
+ .encerramento img {
+    width: 800px;
+    margin: 200px;
+ }

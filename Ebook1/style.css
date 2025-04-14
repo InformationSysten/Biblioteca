@@ -63,11 +63,31 @@ body {
 }
 
 a {
-    color: black; 
+    color: #fff;
     text-decoration: none; 
     font-size: 30px;
     margin: 8px;
   }
+
+.botao {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 550px;
+    height: 50px;
+    background-color: #4B155F;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #8f46aa;
+}
 
 .introducao {
     display: flex;

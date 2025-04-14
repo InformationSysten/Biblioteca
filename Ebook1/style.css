@@ -5,6 +5,10 @@
     font-family: Arial;
 }
 
+body {
+    position: relative;
+}
+
 .capa {
     display: flex;
     flex-direction: column;
@@ -186,6 +190,59 @@ a {
 }
 
  .encerramento img {
-    width: 800px;
+    width: 80%;
     margin: 200px;
+ }
+
+ .gradiente1 {
+    position: absolute;
+    width: 100%;
+    opacity: 20%;
+    z-index: -1;
+ }
+
+ .gradiente2 {
+    position: absolute;
+    width: 100%;
+    opacity: 40%;
+    z-index: -1;
+ }
+
+ .gradiente3 {
+    position: absolute;
+    width: 100%;
+    opacity: 30%;
+    z-index: -1;
+ }
+
+ .estrelas1 {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    opacity: 20%;
+    z-index: -1;
+ }
+
+ .estrelas2 {
+    position: absolute;
+    top: 2550px;
+    width: 100%;
+    opacity: 20%;
+    z-index: -1;
+ }
+
+ .estrelas3 {
+    position: absolute;
+    bottom: 615px;
+    width: 100%;
+    opacity: 20%;
+    z-index: -1;
+ }
+
+ .estrelas4 {
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    opacity: 20%;
+    z-index: -1;
  }

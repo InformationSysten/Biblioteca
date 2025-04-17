@@ -9,6 +9,14 @@ body {
     position: relative;
 }
 
+h1 {
+    color: #4B155F;
+}
+
+b {
+    color: #4B155F;
+}
+
 .capa {
     display: flex;
     flex-direction: column;
@@ -16,6 +24,10 @@ body {
     background: rgb(75, 21, 95);
     background: radial-gradient(circle, rgba(75, 21, 95, 1) 21%, rgba(78, 22, 93, 1) 59%, rgba(98, 27, 76, 1) 82%, rgba(102, 28, 73, 1) 90%, rgba(108, 30, 68, 1) 95%, rgba(122, 34, 55, 1) 100%);
     margin-bottom: 80px;
+}
+
+.capa b {
+    color: white;
 }
 
 .logoIS {
@@ -62,13 +74,6 @@ body {
     margin: 20px;
 }
 
-a {
-    color: #fff;
-    text-decoration: none; 
-    font-size: 30px;
-    margin: 8px;
-  }
-
 .botao {
     margin-top: 20px;
     margin-bottom: 5px;
@@ -77,7 +82,7 @@ a {
     background-color: #4B155F;
     color: #fff;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial;
     border: none;
     cursor: pointer;
@@ -98,6 +103,7 @@ a {
 .tIntroducao {
     font-size: 40px;
     margin: 80px;
+    color: #4B155F;
 }
 
 .textoIntroducao {

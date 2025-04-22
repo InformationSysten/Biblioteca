@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin-top: 50px;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Seção de texto (esquerda) */
+.ctexto {
+  flex: 1;
+  min-width: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff451a;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.texto1 {
+  width: 100%;
+  max-width: 400px;
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.ctexto ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ctexto li {
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+/* Formulário (direita) */
+.forms-container {
+  flex: 1;
+  max-width: 400px;
+}
+
+.forms {
+  background: #56078b;
+  color: #fff;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forms h3 {
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-size: 1.2rem;
+}
+
+.input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.formcheckbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 0.8rem;
+}
+
+.formcheckbox input {
+  margin-top: 3px;
+}
+
+.formprivacidade {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.botao {
+  width: 160px;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 1rem;
+  background-color: #ff451a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #e03c16;
+}
+
+/* Seção de cards */
+h2 {
+  color: #ff451a;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 50px auto 30px;
+  max-width: 900px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #f9f8f5;
+  width: 200px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #868686;
+  box-shadow: 0 0 30px rgba(93, 93, 93, 0.3);
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.tcard {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}

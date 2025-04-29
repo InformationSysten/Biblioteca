@@ -23,6 +23,7 @@
 
 ## Posts 
 - https://informationsysten.github.io/Biblioteca/GenesysCloud/index.html
+- https://informationsysten.github.io/Biblioteca/GenesysEspanhol/index.html
 - https://informationsysten.github.io/Biblioteca/Confiança/index.html
 - https://informationsysten.github.io/Biblioteca/Carrossel/index.html
 - https://informationsysten.github.io/Biblioteca/Template/index.html

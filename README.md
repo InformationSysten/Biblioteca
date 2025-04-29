@@ -31,3 +31,5 @@
 - https://informationsysten.github.io/Biblioteca/AgentCopilot/index.html
 - https://informationsysten.github.io/Biblioteca/Ebook1/index.html
 - https://informationsysten.github.io/Biblioteca/Ebook2/index.html
+- https://informationsysten.github.io/Biblioteca/RoboPortugues/index.html
+- https://informationsysten.github.io/Biblioteca/RoboEspanhol/index.html
